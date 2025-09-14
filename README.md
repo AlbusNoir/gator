@@ -39,8 +39,11 @@ gator addfeed <url>
 Start the aggregator:
 
 ```bash
-gator agg <interval> (interval format can be passed as #s #m #h. Ex 30s 30m 1h. It uses [time.ParseDuration](https://pkg.go.dev/time#ParseDuration) to parse the interval into a [time.Duration](https://pkg.go.dev/time#Duration) value)
-```
+gator agg <interval>  
+```  
+> [!NOTE] 
+> interval format can be passed as #s #m #h. Ex 30s 30m 1h.  
+> It uses [time.ParseDuration](https://pkg.go.dev/time#ParseDuration) to parse the interval into a [time.Duration](https://pkg.go.dev/time#Duration) value
 
 View the posts:
 
